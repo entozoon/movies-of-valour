@@ -1,22 +1,20 @@
-# Lists of Valour
+# Movies of Valour
 
-A cross-platform app to store lists of things.
+A cross-platform app to store a list of movies.
 
-## "How boring"? No, not boring..
+## "How boring"? No, not boring!
 
-Do you, like me, have dozens of IMDB tabs open as reminders of films and shows that you might like to watch? Well fret ye no more friend, for this will be a simple way to save them conveniently and have them display in a sortable list with imdb ratings, posters, notes and suchlike.
-
-NB: Might shift to 'Movies of Valour' with 'Lists of' as a dependency :)
+Do you, like me, have dozens of IMDB tabs open as reminders of films that you might like to watch? Well, fret ye no more friend, for this will be a simple way to save them conveniently; displayed in a sortable list with IMDB ratings, posters, notes, DVD release dates and who knows what else!
 
 ## Technologies
 
+- Firebase
 - Electron.io
 - React.js
-- Firebase
 
-## When?
+## Is it complete?
 
-Who knows! Like all my tools, I build them from necessity (so, fervently but.. sporadically).
+Who knows! It's a personal project and, like all my tools, I build them from necessity (so, fervently but.. sporadically).
 
 ## Installation (dev)
 
