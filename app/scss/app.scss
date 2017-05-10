@@ -1,6 +1,7 @@
+@import 'base/_reset';
 @import 'components/input';
 body {
-  font-family: verdana, tahoma;
+  padding: 10px;
   color: #eaf;
-  background: #eee;
+  background: #aab;
 }
