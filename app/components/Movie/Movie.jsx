@@ -24,9 +24,16 @@ class Movie extends React.Component {
     this.setMovie();
   }
 
+  isEmpty () {
+    return !this.state.title.length;
+  }
+
   render () {
+    let classes = 'input-group';
+    classes += (this.isEmpty() ? ' empty' : '');
     return (
-      <div>
+      <div className={classes}>
+        <label>Movie name</label>
         <input
           value={this.state.title}
           onChange={this.handsAreTyping.bind(this)}
